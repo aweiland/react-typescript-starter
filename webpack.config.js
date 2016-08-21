@@ -3,8 +3,8 @@ var VendorChunkPlugin = require('webpack-vendor-chunk-plugin');
 
 module.exports = {
     entry: {
-        recipe: "./app/js/RecipeEditor.tsx",
-        calendar: "./app/js/CalendarEditor.tsx",
+        foo: "./app/js/FooComponent.tsx",
+        bar: "./app/js/BarComponent.tsx",
         vendor: ['react', 'react-dom', 'react-bootstrap', 'whatwg-fetch', 'immutable', 'es6-promise', 'jquery', 'jquery-serializejson', 'bootstrap']
     },
     output: {
