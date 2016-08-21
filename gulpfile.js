@@ -10,7 +10,7 @@ var cleanCSS = require('gulp-clean-css');
 
 var config = {
     nodeDir: "node_modules",
-    targetDir: '../resources/static',
+    targetDir: 'build',
     minJs: 'all.min.js',
     minCss: 'all.min.css'
 }
