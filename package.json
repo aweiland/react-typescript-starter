@@ -1,0 +1,41 @@
+{
+  "name": "purehelium",
+  "version": "1.0.0",
+  "description": "Yay!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bootstrap-material-design": "^0.5.10",
+    "es6-promise": "^3.2.1",
+    "expose-loader": "^0.7.1",
+    "immutable": "^3.8.1",
+    "jquery": "^3.0.0",
+    "jquery-serializejson": "^2.6.2",
+    "react": "^15.1.0",
+    "react-bootstrap": "*",
+    "react-dnd": "^2.1.4",
+    "react-dom": "^15.1.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^2.0.0",
+    "imports-loader": "^0.6.5",
+    "install": "^0.8.1",
+    "npm": "^3.9.6",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1",
+    "webpack-vendor-chunk-plugin": "^1.0.0"
+  }
+}
